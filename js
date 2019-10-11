@@ -1,5 +1,4 @@
-<script type="text/javascript">
-    $(window).on('load',function(){
-        $('#startpop').modal('show');
-    });
-</script>
+setTimeout(function() { 
+    $('#startpop').fadeOut();
+    $('body').removeClass('modal-open')
+}, 15000);
